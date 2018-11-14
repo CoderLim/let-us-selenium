@@ -1,7 +1,14 @@
 # coding=utf-8
 
-# 需要安装python、pip
-# 下载对应的chromedriver: http://chromedriver.storage.googleapis.com/index.html?path=2.27/
+# 需要安装python
+#
+# 安装pip: curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#          python get-pip.py
+#
+# 下载对应chrome版本的chromedriver: 
+#        https://blog.csdn.net/huilan_same/article/details/51896672
+#        http://chromedriver.storage.googleapis.com/index.html
+# 如果报错: call function result missing 'value'就是因为chrome和chromedriver版本不匹配
 
 # 导入selenum的webdriver包
 from selenium import webdriver
